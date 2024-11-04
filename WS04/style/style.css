@@ -1,0 +1,37 @@
+body {background-color: blue;
+
+}
+h1 {color: white; font-size: 20px;
+
+}
+h2 {color: white; font-size: 20px;
+
+}
+p {color: white; font-size: 12px;
+
+}
+li {color:lightgray;
+
+}
+div { border-color: white;border-style: dotted; height: 100px; width: 100px;
+
+}
+img {
+    border: 5px  color(white);
+  }
+figcaption {color: white;
+
+}
+label {color: white;
+
+}
+a {color: white;
+
+}
+
+.pElement {background-color: cornflowerblue; border-color:white;border-style:solid;border-radius: 5px;padding:5px; height: 200px; width: 450px; padding-left: 35px;
+
+}
+.otsikko2 {
+  border-style: groove; width: 325px;
+}

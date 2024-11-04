@@ -1,0 +1,15 @@
+body {background-color: black;
+
+}
+h1 {color: white; font-size: 20px;
+
+}
+p {color: lightgray; font-size: 12px;
+
+}
+li {color:lightgray
+
+}
+div { border-color: white;border-style: dotted; height: 100px; width: 100px;
+
+}
