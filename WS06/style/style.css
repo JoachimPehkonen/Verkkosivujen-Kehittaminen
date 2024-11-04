@@ -29,7 +29,7 @@ aside,
 section{
     font-family: Arial, Helvetica, sans-serif;
 }
-aside {
+.sivupalkki {
     float: right;
     padding: 20px;
     width: 14em;
@@ -59,3 +59,13 @@ body {
     margin-left:auto;
     margin-right:auto;
     }
+.sivupalkki2{
+    float: left;
+    width: 20%;
+    height: 300px;
+    background: #ccc;
+    padding: 20px;
+}
+.sisältö3{
+    float:right;
+}
