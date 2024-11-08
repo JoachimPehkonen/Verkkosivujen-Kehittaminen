@@ -27,29 +27,31 @@ h2 {
     color:darkgray;
 }
 
-
 article,
 aside,
 section{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.sisältö1 {
+    background-color: antiquewhite;
+}
 .sivupalkki {
     float: right;
-    padding: 28px;
+    padding: 1em;
     width: 25%;
-    height:574px; 
+    height:582px; 
     border-right: 2px solid #d3d3d3;
+    border-left: 2px solid #d3d3d3;
     background-color: cornsilk;
 }
 
 .artikkeli,
 .css-float{
     float:left;
-    padding:20px;
+    padding:1em;
     width:65%;
-    flex-wrap: wrap;
     background-color: antiquewhite;
-    border-right: 2px solid #d3d3d3;
     border-left: 2px solid #d3d3d3;
 }
 .artikkeli{
@@ -59,19 +61,28 @@ section{
     height:300px;
 }
 body {
-    width:70%;
+    width:80%;
     margin-left:auto;
     margin-right:auto;
+    display: flex;
+    flex-direction: column;
+    height:fit-content;
     }
 .sivupalkki2{
     float: left;
     width: 20%;
     height: 250px;
+    text-align: left;
     background: cornsilk;
-    padding: 0px;
-    border-left: 1px solid #848484;
-    border-right: 1px solid #848484;
+    border-left: 2px solid #d3d3d3;
+    border-right: 2px solid #d3d3d3;
 }
+
+ul li {
+    list-style-type: none;
+    padding: 10px;
+  }
+
 a:link {
     color: darkblue;
   }
@@ -90,20 +101,20 @@ a:link {
 
 .sivu3 {
     background-color: antiquewhite;
+    border-right: 2px solid #d3d3d3;
     
 }
 .sisältö3{
     float: left;
-    padding-left: 10px;
-    width: 78%;
-    border-right: 1px solid #848484;
+    padding: 10px;
 }
 .otsikko3 {
     text-align: left;
 }
 .sivu2{
     background-color: antiquewhite;
-    margin-top: -20px;
+    border-right: 2px solid #d3d3d3;
+    border-left: 2px solid #d3d3d3;
 }
 #kuva1 {
     border:white 2px solid;
