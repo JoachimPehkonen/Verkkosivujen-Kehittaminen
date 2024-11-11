@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    color: white;  
+}
+
+.row {
+    border: solid 2px;
+    border-radius: 10px;
+}
