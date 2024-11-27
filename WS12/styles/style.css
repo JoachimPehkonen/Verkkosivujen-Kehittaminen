@@ -43,10 +43,18 @@ width:100%;
     border-radius: 100px;
     border-color: #5c728d;
 }
+.otsikko{
+    color: rgb(57, 57, 57);
+}
 
-main {
+#tietoja {
     text-align: center;
-    background-color: antiquewhite;
+    margin-left: 20%;
+    flex-direction: column;
+    color: aliceblue;
+}
+.tietoja2 {
+    text-align: center;
     margin-left: 20%;
     flex-direction: column;
 }
@@ -57,12 +65,13 @@ main {
     box-sizing: border-box;
 }
 
-body {
+.sivurakenne {
     font-family: Arial, sans-serif;
+    background-image: url(../images/devaaja.jpg);
 }
 
 .somet {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .somet:hover {
@@ -78,7 +87,7 @@ footer {
 }
 
 i:hover {
-    color: #fcb962ee;
+    color: #e3dfc0ee;
 }
 
 i{
