@@ -1,0 +1,1 @@
+Oma digitaalinen ansioluettelo, joka on luotu Verkkosivujen kehittäminen - kurssia varten.
