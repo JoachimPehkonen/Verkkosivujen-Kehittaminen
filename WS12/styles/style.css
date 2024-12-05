@@ -6,7 +6,7 @@ header {
     width: 20%;
     height: 95vh;
     overflow-y: auto;
-    background-color: #c4b7a6;
+    background-color: #e0d2be;
     border-right: 2px #878f99 solid;
 }
 
@@ -17,8 +17,8 @@ width:100%;
 
 }
 
-.navi,
-.nav1{
+.nav1,
+.navi{
     padding: 20px;
     font-size: 15px;
     text-decoration: none;
@@ -49,7 +49,6 @@ width:100%;
 
 #tietoja {
     text-align: center;
-    margin-left: 20%;
     flex-direction: column;
     color: aliceblue;
     padding-top: 22%;
@@ -61,11 +60,48 @@ width:100%;
     margin-left: 20%;
 
 }
-.tietoja2 {
-    text-align: center;
+
+main{
     margin-left: 20%;
+    padding: 2%;
+    flex: 1;
+    display: flex;
     flex-direction: column;
 }
+
+.tietoja3,.tietoja4 {
+    text-align: left;
+    
+    
+}
+.tietoja2{
+    text-align: left;
+}
+#otsikko2, 
+#otsikko3 {
+    display: flex;
+    margin-left: 10%;
+    text-align: left;
+}
+hr {
+    width:50%;
+    opacity:100%;
+    margin-left: 5%;
+    border-top: 2px solid #ffa735;
+    
+}
+
+#teksti2 {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 40%;
+    text-align: left;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 20%;
+    padding: 20px;
+}
+
 
 *{
     margin: 0;
@@ -75,10 +111,20 @@ width:100%;
 
 .sivurakenne {
     background-image: url(../images/devaaja.jpg);
+
 }
 
 body{
     font-family: Arial, sans-serif;
+    background: rgba(255, 233, 207, 0.212);
+}
+
+.koulutus{
+    float: left;
+}
+
+.työkokemus{
+    float: right;
 }
 
 .somet {
@@ -94,12 +140,13 @@ footer {
     position: fixed;
     text-align: center;
     bottom: 0%;
-    background-color: #c4b7a6;
+    background-color: #e0d2be;
     font-size: 13px;
+    border-right: 2px #878f99 solid;
 }
 
 i:hover {
-    color: #e3dfc0ee;
+    color: #ecad7afa;
 }
 
 i{
