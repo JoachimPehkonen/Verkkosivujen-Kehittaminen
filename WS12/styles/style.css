@@ -76,9 +76,11 @@ main{
 }
 .tietoja2{
     text-align: left;
+
 }
 #otsikko2, 
-#otsikko3 {
+#otsikko3,
+#otsikko4 {
     display: flex;
     margin-left: 10%;
     text-align: left;
@@ -89,6 +91,13 @@ hr {
     margin-left: 5%;
     border-top: 2px solid #ffa735;
     
+}
+
+.otsikon2viiva{
+    width:55%;
+    opacity:100%;
+    margin-left: 5%;
+    border-top: 2px solid #ffa735;
 }
 
 #teksti2 {
@@ -121,10 +130,18 @@ body{
 
 .koulutus{
     float: left;
+
 }
 
 .työkokemus{
     float: right;
+
+}
+
+#yhteystietoja{
+    float:right;
+    font-size: 25px;
+    
 }
 
 .somet {
