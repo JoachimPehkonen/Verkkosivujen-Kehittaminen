@@ -1,1 +1,0 @@
-Koulutehtäviä ja oma verkkosivu readme tiedosto
