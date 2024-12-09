@@ -212,6 +212,21 @@ body{
     margin-left: 10%;
 }
 
+#cvviiva{
+    width:60%;
+    opacity:100%;
+    margin-left: 0%;
+    border: none;
+    border-top: 3px solid #c38029;
+}
+
+#cvviiva2{
+    width: 100%;
+    margin-left: 0%;
+    border: none;
+    border-top: 2.5px solid #d4a373;;
+}
+
 .cvviiva{
     width:60%;
     opacity:100%;
